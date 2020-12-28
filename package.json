@@ -1,0 +1,38 @@
+{
+  "name": "ferracine-whatsapp-bot",
+  "version": "1.0.0",
+  "description": "Bot to handle the customer service of Ferracine's real state.",
+  "main": "src/index.ts",
+  "scripts": {
+    "start:dev": "dotenv -e .env -- ts-node-dev --inspect --transpile-only --no-notify --ignore-watch node_modules src/index.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/brunohafonso95/ferracine-whatspp-bot.git"
+  },
+  "keywords": [
+    "bot",
+    "whatsapp",
+    "customer",
+    "service",
+    "chatbot"
+  ],
+  "author": "Bruno Afonso <brunohafonso@gmail.com>",
+  "contributors": [
+    {
+      "name": "Luiz Felipe",
+      "email": "luizfelipesousa@hotmail.com"
+    }
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/brunohafonso95/ferracine-whatspp-bot/issues"
+  },
+  "homepage": "https://github.com/brunohafonso95/ferracine-whatspp-bot#readme",
+  "devDependencies": {
+    "dotenv-cli": "^4.0.0",
+    "ts-node-dev": "^1.1.1",
+    "typescript": "^4.1.3"
+  }
+}
