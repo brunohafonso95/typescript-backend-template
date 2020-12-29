@@ -1,3 +1,10 @@
+### [1.0.3](https://github.com/brunohafonso95/ferracine-whatspp-bot/compare/v1.0.2...v1.0.3) (2020-12-29)
+
+
+### :bug: Fixes
+
+* adjust on start script ([295fd25](https://github.com/brunohafonso95/ferracine-whatspp-bot/commit/295fd253e70999475be96384a9803ec280e21860))
+
 ### [1.0.2](https://github.com/brunohafonso95/ferracine-whatspp-bot/compare/v1.0.1...v1.0.2) (2020-12-29)
 
 
