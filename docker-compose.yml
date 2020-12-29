@@ -1,0 +1,11 @@
+version: '3.1'
+
+services:
+  ferracine-bot:
+    container_name: ferracine-bot
+    build: .
+    environment:
+      NODE_ENV: production
+      PORT: 3000
+    ports:
+      - 3000:3000

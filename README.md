@@ -13,7 +13,7 @@ dentro dessa estimativa estão contemplados os seguintes items:
 - Criação da base do projeto
 - configuração do ambiente de desenvolvimento
 - modelagem/definição de banco de dados caso necessário aramazenar alguma informação dos clientes
-- desenvolvimento dos fluxos que o bot vai atender (esse item pode influenciar no prazo e consequentemente no orçamento, dependendo do nível de complexidade d que o bot vai atender)
+- desenvolvimento dos fluxos que o bot vai atender (esse item pode influenciar no prazo e consequentemente no orçamento, dependendo do nível de complexidade do que o bot vai atender)
 - configuração/implantação/validação do ambiente final
 - treinamento de uso do bot e/ou ajustes finais caso necessário
 
@@ -41,3 +41,23 @@ custo operacional
 # captação de leads
 
 - email e de outras plataformas
+
+## Rodando projeto com Docker
+
+1. buildando a imagem
+
+```bash
+docker build -t ferracine-bot:latest .
+```
+
+2. rodando a imagem
+
+```bash
+docker run -p 3000:3000 -e PORT=3000 ferracine-bot
+```
+
+3. rodando com docker-compose
+
+```bash
+docker-compose up -d
+```
