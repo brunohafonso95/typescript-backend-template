@@ -1,3 +1,10 @@
+### [1.0.1](https://github.com/brunohafonso95/ferracine-whatspp-bot/compare/v1.0.0...v1.0.1) (2020-12-29)
+
+
+### :bug: Fixes
+
+* update the file permission to executation ([0dd615a](https://github.com/brunohafonso95/ferracine-whatspp-bot/commit/0dd615a7b8998542ad47c6abcd1742934d890c97))
+
 ## 1.0.0 (2020-12-29)
 
 
