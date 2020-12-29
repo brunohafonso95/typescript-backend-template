@@ -1,3 +1,10 @@
+### [1.0.2](https://github.com/brunohafonso95/ferracine-whatspp-bot/compare/v1.0.1...v1.0.2) (2020-12-29)
+
+
+### :bug: Fixes
+
+* add the missing start script on package.json ([5f7c33b](https://github.com/brunohafonso95/ferracine-whatspp-bot/commit/5f7c33b83851781da32260199259828aa772499c)), closes [#4](https://github.com/brunohafonso95/ferracine-whatspp-bot/issues/4)
+
 ### [1.0.1](https://github.com/brunohafonso95/ferracine-whatspp-bot/compare/v1.0.0...v1.0.1) (2020-12-29)
 
 
