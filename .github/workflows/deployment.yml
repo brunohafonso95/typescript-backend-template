@@ -1,0 +1,58 @@
+name: Deployment Workflow
+
+on:
+  push:
+    branches:
+      - master
+
+jobs:
+  release:
+    needs: build
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        node-version: [12.x]
+    steps:
+      - uses: actions/checkout@v2
+      - run: git fetch --prune --unshallow
+
+      - name: Use nodeJS ${{ matrix.node-version }}
+        uses: actions/setup-node@v1
+        with:
+          node-version: ${{ matrix.node-version }}
+
+      - name: Install dependencies
+        run: yarn --frozen-lockfile
+
+      - name: Generate new release
+        id: semantic-release
+        uses: codfish/semantic-release-action@master
+        env:
+          GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
+
+      - name: check for new release
+        if: steps.semantic-release.outputs.new-release-published == 'false'
+        run: |
+          echo "::error ::There's no new release version."
+          exit 1
+
+  deploy:
+    needs: release
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        node-version: [12.x]
+    steps:
+      - uses: actions/checkout@v2
+      - run: git fetch --prune --unshallow
+
+      - shell: bash
+        name: Create ssh deployment key
+        env:
+          SSH_KEY: ${{ secrets.SSH_PRIVATE_KEY }}
+        run: ./scripts/deploy.sh
+
+      - name: Deploy to Umbler
+        run: git remote add umbler ssh://git@geonosis.deploy.umbler.com:9922/j5r0xgzk/ferracine-bot-com-br.git && git push umbler master
+        env:
+          CI: true
