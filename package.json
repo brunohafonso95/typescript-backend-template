@@ -4,7 +4,7 @@
   "description": "Bot to handle the customer service of Ferracine's real state.",
   "main": "src/index.ts",
   "scripts": {
-    "start": "node dist/src/index.js",
+    "start": "yarn build && node dist/src/index.js",
     "build": "tsc",
     "lint": "eslint ./src/ --ext .ts -f html -o eslint.html",
     "lint:fix": "eslint ./src/ --ext .ts -f html -o eslint.html --fix",
