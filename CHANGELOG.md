@@ -1,3 +1,10 @@
+## [1.2.0](https://github.com/brunohafonso95/ferracine-whatspp-bot/compare/v1.1.0...v1.2.0) (2020-12-30)
+
+
+### :sparkles: New Features
+
+* add lint-staged config to run script just on staged files ([de73e76](https://github.com/brunohafonso95/ferracine-whatspp-bot/commit/de73e769233e0065e017f333721c26f3e1a95d35)), closes [#14](https://github.com/brunohafonso95/ferracine-whatspp-bot/issues/14)
+
 ## [1.1.0](https://github.com/brunohafonso95/ferracine-whatspp-bot/compare/v1.0.3...v1.1.0) (2020-12-30)
 
 
