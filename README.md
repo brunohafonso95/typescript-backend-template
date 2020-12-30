@@ -25,7 +25,7 @@ custo operacional
 - custo para uso dos serviços de mensagem do whatsapp ficaria em torno de R$ 200/mês, esse custo é um custo fixo levando em consideração a quantidade de 10 mil mensagens por mês, o serviço é cobrado por uso que pode ser maior ou menor, lembrando que esses custos, são para manter a plataforma e serão pagos aos serviços que fornecem os recursos para o funcionamento do bot e não estão comtemplados na minha mão de obra.
 
 # Mapeamento dos fluxos do bot
-- 
+-
 
 # cronograma do projeto
 
@@ -61,3 +61,7 @@ docker run -p 3000:3000 -e PORT=3000 ferracine-bot
 ```bash
 docker-compose up -d
 ```
+
+# Desenho de arquitetura
+
+![Arquitetura do projeto](arquitetura.png)
