@@ -1,3 +1,15 @@
+## [1.1.0](https://github.com/brunohafonso95/ferracine-whatspp-bot/compare/v1.0.3...v1.1.0) (2020-12-30)
+
+
+### :memo: Documentation
+
+* add new environment variable to .env.example file ([4e53f5c](https://github.com/brunohafonso95/ferracine-whatspp-bot/commit/4e53f5c6724bc7a8055c7cf8102fb44226d4734a)), closes [#13](https://github.com/brunohafonso95/ferracine-whatspp-bot/issues/13)
+
+
+### :sparkles: New Features
+
+* add the new feature to log all the information ([59e9b88](https://github.com/brunohafonso95/ferracine-whatspp-bot/commit/59e9b88244a6b285f5e96e3307ec14f7bc880c03)), closes [#13](https://github.com/brunohafonso95/ferracine-whatspp-bot/issues/13)
+
 ### [1.0.3](https://github.com/brunohafonso95/ferracine-whatspp-bot/compare/v1.0.2...v1.0.3) (2020-12-29)
 
 

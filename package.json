@@ -1,6 +1,6 @@
 {
   "name": "ferracine-whatsapp-bot",
-  "version": "1.0.3",
+  "version": "1.1.0",
   "description": "Bot to handle the customer service of Ferracine's real state.",
   "main": "src/index.ts",
   "scripts": {
