@@ -1,7 +1,7 @@
 {
-  "name": "ferracine-whatsapp-bot",
+  "name": "",
   "version": "1.2.0",
-  "description": "Bot to handle the customer service of Ferracine's real state.",
+  "description": "template to provide a project structure.",
   "main": "src/index.ts",
   "scripts": {
     "start": "yarn build && node dist/src/index.js",
@@ -14,7 +14,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/brunohafonso95/ferracine-whatspp-bot.git"
+    "url": "git+https://github.com/brunohafonso95/typescript-backend-template.git"
   },
   "keywords": [
     "bot",
@@ -24,17 +24,11 @@
     "chatbot"
   ],
   "author": "Bruno Afonso <brunohafonso@gmail.com>",
-  "contributors": [
-    {
-      "name": "Luiz Felipe",
-      "email": "luizfelipesousa@hotmail.com"
-    }
-  ],
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/brunohafonso95/ferracine-whatspp-bot/issues"
+    "url": "https://github.com/brunohafonso95/typescript-backend-template/issues"
   },
-  "homepage": "https://github.com/brunohafonso95/ferracine-whatspp-bot#readme",
+  "homepage": "https://github.com/brunohafonso95/typescript-backend-template#readme",
   "husky": {
     "hooks": {
       "pre-commit": "lint-staged",
