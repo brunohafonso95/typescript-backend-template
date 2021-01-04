@@ -1,5 +1,5 @@
 const assets = [
-  { path: 'src/index.ts', label: 'Ferracine Bot' },
+  { path: 'src/index.ts', label: 'Template typescript' },
 ];
 
 const verifyConditions = [
@@ -145,7 +145,7 @@ const addChannel = [];
 
 module.exports = {
   repositoryUrl:
-    'https://github.com/brunohafonso95/ferracine-whatspp-bot.git',
+    'https://github.com/brunohafonso95/typescript-backend-template.git',
   branches: [
     '+([0-9])?(.{+([0-9]),x}).x',
     'master',
