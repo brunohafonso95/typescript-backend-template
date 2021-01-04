@@ -52,6 +52,6 @@ jobs:
         run: ./scripts/deploy.sh
 
       - name: Deploy to Umbler
-        run: git remote add umbler ssh://git@geonosis.deploy.umbler.com:9922/j5r0xgzk/ferracine-bot-com-br.git && git push umbler master
+        run: git remote add umbler {repository on umbler} && git push umbler master
         env:
           CI: true
